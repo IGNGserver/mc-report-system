@@ -1,0 +1,9 @@
+name: MCReportPlugin
+version: 1.0.0
+main: cn.lvziw.mcserver.report.ReportPlugin
+api-version: '26.1.2'
+authors: [lvziw]
+folia-supported: true
+permissions:
+  mcreport.use:
+    default: true

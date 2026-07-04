@@ -1,0 +1,18 @@
+{
+  "name": "mc-report-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0 --port 3217",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 3217"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "mysql2": "^3.11.0",
+    "next": "^16.0.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

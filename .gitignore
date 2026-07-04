@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Local secrets
+.env
+.env.local
+.env.*.local
+
+# Next.js
+站点/.next/
+站点/node_modules/
+
+# Java / Gradle
+插件/.gradle/
+插件/build/
+插件/out/
+
+# Local tooling and private deployment scripts
+.tools/
+测试用服务端/
+IGNG内部版/
+mc-report-project.tar
+site-update.tar
+
+# Runtime leftovers
+*.pid
