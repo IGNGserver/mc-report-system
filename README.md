@@ -157,7 +157,14 @@ npm run start
 
 ```bash
 cd 插件
-gradle build
+./gradlew build
+```
+
+Windows:
+
+```powershell
+cd 插件
+.\gradlew.bat build
 ```
 
 生成的 Jar 位于：
@@ -179,9 +186,12 @@ gradle build
 - 已经在服务器使用 AuthMe，希望玩家无需额外注册网站账号
 - 需要支持游戏内发起、网页端处理、连续对话跟进
 
+## 开源许可
+
+本项目采用 [MIT License](./LICENSE)。
+
 ## 发布建议
 
 - GitHub 仓库建议发布源码、`.env.example`、示例配置和数据库脚本
 - 不要提交真实 `.env.local`
 - 不要提交测试账号、远程部署脚本、服务器备份和本地测试服务端
-
