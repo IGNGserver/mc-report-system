@@ -40,6 +40,12 @@
 - [站点](./站点)：Next.js 网页端工单系统
 - [数据库](./数据库)：基础表结构脚本
 
+### English Overview
+
+- `插件`: a Folia-compatible Minecraft plugin for in-game report submission
+- `站点`: a lightweight Next.js web panel for report handling and ticket-style follow-up
+- `数据库`: base SQL schema used by the project
+
 ## 支持版本
 
 ### 插件端
@@ -59,6 +65,9 @@
 - AuthMe：兼容常见 MySQL 表结构，字段名可通过环境变量适配
 
 ## 插件端说明
+
+English summary:
+The plugin is responsible for collecting reports from players in game and writing them into MySQL in a Folia-safe way.
 
 ### 指令
 
@@ -90,6 +99,9 @@
 - `database.parameters`
 
 ## 站点端说明
+
+English summary:
+The web panel is a lightweight report center that supports admin login, player login via AuthMe, report management, and continuous ticket replies.
 
 ### 登录模式
 
@@ -205,6 +217,11 @@ cd 插件
 ## 开源许可
 
 本项目采用 [MIT License](./LICENSE)。
+
+## Community Files
+
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [SECURITY.md](./SECURITY.md)
 
 ## 发布建议
 
